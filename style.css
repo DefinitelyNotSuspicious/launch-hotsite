@@ -1,0 +1,41 @@
+body {
+    background: url(img/background.jpg);
+}
+
+html, body {
+    height: 100%;
+}
+
+.logo {
+    background: url(img/logo.png);
+    width: 476px;
+    height: 260px;
+    display: inline-block;
+}
+
+.ip {
+    background: #71cb38;
+    border-bottom: 5px solid #348626;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.ip-label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+  }
